@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+body{
+    font-family:Roboto;
+    background-color: #212121;
+    color:#fff;
+}
+
+.container{
+    display: flex;
+    margin-top:2vh;
+    flex-direction: column;
+    align-items:center;
+}
+.container h1{
+    letter-spacing:3px;
+    word-spacing:1px;
+    color:rgb(233, 195, 203);
+    font-size:2.5rem;
+}
+
+
+input[type=text]{
+    background-color: #212121;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    /* padding:2px; */
+    /* margin-left:5px; */
+    text-align:center;
+}
+
+button{
+    background-color:crimson;
+    border:1px solid white;
+    color:white;
+    font-size:16px;
+    letter-spacing:1px;
+    margin:2px;
+    padding:15px;
+    border-radius:20px;
+    text-align:center;
+    align-content: center;
+    margin-left:3.5rem;
+    /* margin:auto; */
+    margin-bottom:2.5rem;
+    margin-top:1rem;
+}
+
+button:hover{
+    background-color:rgb(233, 195, 203);
+    color:black;
+    font-weight: 500;
+    border:1px solid crimson;
+}
+
+#results{
+    /* border:1px solid green; */
+    /* margin:1rem; */
+    /* padding:0.5rem; */
+    margin-right:1rem;
+    text-align:center;
+    /* color:orangered; */
+}
+#weight-guide{
+    /* border:1px solid white; */
+    /* display:flex; */
+    /* justify-content:center;
+    align-items:center; */
+    margin:1rem;
+    padding:1rem;
+}
+#weight-guide > h2{
+    text-align:center;
+}
+#weight-guide > p{
+    color:rgb(6, 255, 6);
+}
+
