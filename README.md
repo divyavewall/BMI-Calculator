@@ -1,2 +1,2 @@
 # BMI-Calculator
-(see live working here)[https://divyavewall.github.io/BMI-Calculator/]
+(See Live Working here)[https://divyavewall.github.io/BMI-Calculator/]
